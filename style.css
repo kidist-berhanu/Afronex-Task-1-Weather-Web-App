@@ -5,14 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(123, 130, 133);
+    color: hsl(197, 71%, 73%);
+    background: linear-gradient(160deg, hsl(197, 71%, 73%),#8db9c7);
 }
 .card{
     width:90%;
     max-width: 470px;
-    background: linear-gradient(160deg,hsl(156, 22%, 5%),#130185);
+    background: linear-gradient(160deg,hsl(184, 39%, 34%),#1d657a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -54,4 +55,30 @@ body{
 .weather h1{
     font-size: 80px;
     font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+
 }
